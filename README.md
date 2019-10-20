@@ -33,6 +33,8 @@ plugins:
     type: netlify-plugin-hashfiles
 ```
 
+**IMPORTANT NOTE:** Hashing files has to be the last thing you do before deploying. Make sure you add hashfiles at the bottom of your plugin configuration.
+
 ## Configuration
 
 Hashfiles works out of the box, but can be improved upon with some improved knowledge about your site.
