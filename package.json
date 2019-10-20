@@ -13,6 +13,20 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "rev",
+    "revision",
+    "hash",
+    "versioning",
+    "cache",
+    "expire",
+    "static",
+    "asset",
+    "assets",
+    "cdn"
+  ],
   "dependencies": {
     "assetgraph": "^6.0.0",
     "assetgraph-hashfiles": "^1.0.1",
