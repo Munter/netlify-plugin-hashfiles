@@ -1,4 +1,4 @@
-### v1.0.0 (2019-10-20)
+### v1.0.0 (2019-10-21)
 
 - [Forgit to set version to 0 to start](https://github.com/Munter/netlify-plugin-hashfiles/commit/94e07567e679af6b5ce9f6eb44482216dc8d643f) ([Peter Müller](mailto:munter@fumle.dk))
 - [Lint fix](https://github.com/Munter/netlify-plugin-hashfiles/commit/01377506266f6e74cf18ff8bb94ee1b1ff8ab474) ([Peter Müller](mailto:munter@fumle.dk))
