@@ -3,5 +3,4 @@ build:
   publish: dist
 
 plugins:
-  hashfiles:
-    type: ./lib/index.js
+  - type: ./lib/index.js
