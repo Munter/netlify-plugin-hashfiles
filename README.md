@@ -29,8 +29,7 @@ Then add the following to your `netlify.yml`:
 
 ```yml
 plugins:
-  hashfiles:
-    type: netlify-plugin-hashfiles
+  - type: netlify-plugin-hashfiles
 ```
 
 **IMPORTANT NOTE:** Hashing files has to be the last thing you do before deploying. Make sure you add hashfiles at the bottom of your plugin configuration.
@@ -43,8 +42,7 @@ These are the configuration options with their default values:
 
 ```yml
 plugins:
-  hashfiles:
-    type: netlify-plugin-hashfiles
+  - type: netlify-plugin-hashfiles
     config:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
