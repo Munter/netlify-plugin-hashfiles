@@ -1,3 +1,8 @@
+### v1.0.2 (2019-11-06)
+
+- [Use json schema to validate config](https://github.com/Munter/netlify-plugin-hashfiles/commit/039e48d040a2b90abb724b2ba6a0245282869e1f) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add json schema for configuration](https://github.com/Munter/netlify-plugin-hashfiles/commit/f16726ab87f3003adfdca95ce4b6b1e164bcf418) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v1.0.0 (2019-10-21)
 
 - [Forgit to set version to 0 to start](https://github.com/Munter/netlify-plugin-hashfiles/commit/94e07567e679af6b5ce9f6eb44482216dc8d643f) ([Peter Müller](mailto:munter@fumle.dk))
