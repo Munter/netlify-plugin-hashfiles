@@ -1,22 +1,24 @@
 {
   "canonicalRoot": {
-    "displayName": "Canonical root",
+    "title": "Canonical root",
     "description": "Setting canonicalRoot will enable subfont to map canonical URL's to your page in your code to local files on disk",
     "type": "string"
   },
   "entryPoints": {
-    "displayName": "Entry points",
+    "title": "Entry points",
     "description": "An array of glob patterns for pages on your site. Recursive traversal will start from these",
     "type": "array",
     "items": [
       {
         "type": "string"
       }
-    ]
+    ],
+    "minItems": 1,
+    "uniqueItems": true
   },
   "staticDir": {
-    "description": "Directory where content-addressable files are moved",
-    "type": "string",
-    "default": "/static/"
+    "title": "Static files directory",
+    "description": "Directory where content-addressable files are moved and immutable ccache-headers are set",
+    "type": "string"
   }
 }
