@@ -29,8 +29,7 @@
   ],
   "dependencies": {
     "assetgraph": "^6.0.0",
-    "assetgraph-hashfiles": "^1.0.1",
-    "globby": "^10.0.1"
+    "assetgraph-hashfiles": "^1.0.1"
   },
   "devDependencies": {
     "@netlify/build": "^0.1.12",
