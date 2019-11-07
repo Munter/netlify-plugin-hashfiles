@@ -33,7 +33,7 @@
     "globby": "^10.0.1"
   },
   "devDependencies": {
-    "@netlify/build": "^0.1.8",
+    "@netlify/build": "^0.1.12",
     "coveralls": "^3.0.2",
     "cpy-cli": "^2.0.0",
     "eslint": "^6.0.0",
@@ -59,7 +59,7 @@
     "prebuild": "rimraf dist",
     "build": "cpy site dist",
     "lint": "eslint . && prettier --check '**/*.js'",
-    "test": "mocha",
+    "test": "echo 'no tests set up'",
     "netlify-build": "netlify-build",
     "ci": "npm run lint && npm run netlify-build && npm run coverage",
     "coverage": "NODE_ENV=test nyc --reporter=lcov --reporter=text --all -- mocha --reporter dot && echo google-chrome coverage/lcov-report/index.html",

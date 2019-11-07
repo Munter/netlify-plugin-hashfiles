@@ -47,7 +47,7 @@ plugins:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
       entryPoints:
-        - *.html
+        - "*.html"
 
       # Directory where content-addressable files are moved
       staticDir: /static/
