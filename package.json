@@ -32,6 +32,7 @@
     "assetgraph-hashfiles": "^1.0.1"
   },
   "devDependencies": {
+    "@netlify/build": "^0.1.30",
     "coveralls": "^3.0.9",
     "cpy-cli": "^2.0.0",
     "eslint": "^6.7.2",
@@ -44,7 +45,6 @@
     "eslint-plugin-standard": "^4.0.0",
     "magicpen-prism": "3.0.2",
     "mocha": "^6.0.0",
-    "netlify-cli": "^2.24.0",
     "nyc": "^14.0.0",
     "offline-github-changelog": "^1.6.1",
     "prettier": "~1.19.0",
