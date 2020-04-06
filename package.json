@@ -48,7 +48,7 @@
     "mocha": "6.2.3",
     "nyc": "15.0.1",
     "offline-github-changelog": "1.6.1",
-    "prettier": "1.19.1",
+    "prettier": "2.0.4",
     "rimraf": "3.0.2",
     "unexpected": "11.14.0",
     "unexpected-assetgraph": "1.1.2"
