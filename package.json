@@ -41,6 +41,7 @@
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "magicpen-prism": "3.0.2",
@@ -56,10 +57,10 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "cpy site dist",
-    "lint": "eslint . && prettier --check '**/*.js'",
+    "lint": "eslint .",
     "test": "echo 'no tests set up'",
+    "test:ci": "npm run netlify-build && npm run coverage",
     "netlify-build": "netlify-build",
-    "ci": "npm run lint && npm run netlify-build && npm run coverage",
     "coverage": "NODE_ENV=test nyc --reporter=lcov --reporter=text --all -- mocha --reporter dot && echo google-chrome coverage/lcov-report/index.html",
     "preversion": "offline-github-changelog --next=${npm_package_version} > CHANGELOG.md && git add CHANGELOG.md"
   },
