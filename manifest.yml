@@ -1,0 +1,10 @@
+name: netlify-plugin-checklinks
+inputs:
+  - name: entryPoints
+    default: ['*.html']
+    # description: An array of glob patterns for pages on your site. Recursive traversal will start from these
+    # validation: array of strings, at least one item, unique items
+  - name: staticDir
+    default: 'static'
+    # title: "Static files directory",
+    # description: "Directory where content-addressable files are moved and immutable ccache-headers are set",

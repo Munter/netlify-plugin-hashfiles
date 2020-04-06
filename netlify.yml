@@ -3,4 +3,4 @@ build:
   publish: dist
 
 plugins:
-  - type: ./lib/index.js
+  - package: ./lib/index.js
