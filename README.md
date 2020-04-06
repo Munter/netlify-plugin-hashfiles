@@ -21,16 +21,14 @@ Relevant files that need to retain their names are not moved:
 
 ## Installation
 
-```
-npm install --save-dev netlify-plugin-hashfiles
+To install, add the following lines to your `netlify.toml` file:
+
+```toml
+[[plugins]]
+package = "netlify-plugin-hashfiles"
 ```
 
-Then add the following to your `netlify.yml`:
-
-```yml
-plugins:
-  - type: netlify-plugin-hashfiles
-```
+_The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already._
 
 **IMPORTANT NOTE:** Hashing files has to be the last thing you do before deploying. Make sure you add hashfiles at the bottom of your plugin configuration.
 
@@ -40,22 +38,18 @@ Hashfiles works out of the box, but can be improved upon with some improved know
 
 These are the configuration options with their default values:
 
-```yml
-plugins:
-  - type: netlify-plugin-hashfiles
-    config:
-      # An array of glob patterns for pages on your site
-      # Recursive traversal will start from these
-      entryPoints:
-        - "*.html"
+```toml
+[[plugins]]
+package = "netlify-plugin-hashfiles"
 
-      # Directory where content-addressable files are moved
-      staticDir: /static/
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site. Recursive traversal will start from these
+  entryPoints = [
+    "*.html"
+  ]
 
-      # canonicalRoot is the origin where your page will eventually be deployed
-      # Setting canonicalRoot will enable hashfiles to map canonical URL's to your
-      # page in your code to local files on disk
-      canonicalRoot: https://your-page.netlify.com
+  # Directory where content-addressable files are moved and immutable cache-headers are set
+  staticDir = "/static/"
 ```
 
 ## License
