@@ -1,3 +1,23 @@
+### v4.0.0 (2020-04-07)
+
+#### Pull requests
+
+- [#21](https://github.com/munter/netlify-plugin-hashfiles/pull/21) Update dependency mocha to v7 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#20](https://github.com/munter/netlify-plugin-hashfiles/pull/20) Update dependency magicpen-prism to v4 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#19](https://github.com/munter/netlify-plugin-hashfiles/pull/19) Update dependency cpy-cli to v3 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#17](https://github.com/munter/netlify-plugin-hashfiles/pull/17) Update Node.js to 10,12,13 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#6](https://github.com/munter/netlify-plugin-hashfiles/pull/6) Update nyc to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#7](https://github.com/munter/netlify-plugin-hashfiles/pull/7) Update eslint-plugin-node to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Add package-lock file](https://github.com/munter/netlify-plugin-hashfiles/commit/d014c37c4523f3b9d6763a0dff98dc8a97ab1423) ([Peter Müller](mailto:munter@fumle.dk))
+- [Save exact versions in package.json and enable package-lock file](https://github.com/munter/netlify-plugin-hashfiles/commit/a69afcd4c81154266471bff2af2cbf534a333c87) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update to latest version of prettier](https://github.com/munter/netlify-plugin-hashfiles/commit/90894fbaef66c1ceb4cdd85a3a5ce5bd9263cdbd) ([Peter Müller](mailto:munter@fumle.dk))
+- [Pin dependencies](https://github.com/munter/netlify-plugin-hashfiles/commit/50bb0d778f8026900da52f0c8c5974148b9330db) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Convert readme to the new format](https://github.com/munter/netlify-plugin-hashfiles/commit/700b692fa42b03877da8717a830e9f834482de5c) ([Peter Müller](mailto:munter@fumle.dk))
+- [+3 more](https://github.com/munter/netlify-plugin-hashfiles/compare/v3.0.1...v4.0.0)
+
 ### v3.0.1 (2019-12-10)
 
 #### Pull requests
