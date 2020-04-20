@@ -1,3 +1,18 @@
+### v4.0.1 (2020-04-20)
+
+#### Pull requests
+
+- [#23](https://github.com/munter/netlify-plugin-hashfiles/pull/23) Bump acorn from 6.4.0 to 6.4.1 ([dependabot[bot]](mailto:49699333+dependabot[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Add menifest.yml to npm distribution. Ensures that netlify build will apply defaults correctly](https://github.com/munter/netlify-plugin-hashfiles/commit/eb616d5f2e19bc44b8cf29fa442ff5be1f5295ec) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency @netlify\/build to v0.3.6](https://github.com/munter/netlify-plugin-hashfiles/commit/419ad72b4301a0bca0c94c1e921569cdba96b9d4) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.4](https://github.com/munter/netlify-plugin-hashfiles/commit/a7012fdb7c833aba0a39a4ccd80caf4a9f53904d) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.3](https://github.com/munter/netlify-plugin-hashfiles/commit/4394fb2738cd01f79d188d66388dab0ffd6250e8) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.2](https://github.com/munter/netlify-plugin-hashfiles/commit/a45450d666688bb7941d52bfb36052b54b027fe7) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [+8 more](https://github.com/munter/netlify-plugin-hashfiles/compare/v4.0.0...v4.0.1)
+
 ### v4.0.0 (2020-04-07)
 
 #### Pull requests
