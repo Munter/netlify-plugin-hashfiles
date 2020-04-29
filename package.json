@@ -33,7 +33,7 @@
     "assetgraph-hashfiles": "^1.0.1"
   },
   "devDependencies": {
-    "@netlify/build": "0.4.11",
+    "@netlify/build": "0.4.12",
     "coveralls": "3.1.0",
     "cpy-cli": "3.1.0",
     "eslint": "6.8.0",
