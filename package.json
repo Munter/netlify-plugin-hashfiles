@@ -30,7 +30,8 @@
   ],
   "dependencies": {
     "assetgraph": "^6.0.3",
-    "assetgraph-hashfiles": "^1.0.1"
+    "assetgraph-hashfiles": "^1.0.1",
+    "path-type": "^4.0.0"
   },
   "devDependencies": {
     "@netlify/build": "0.4.13",
