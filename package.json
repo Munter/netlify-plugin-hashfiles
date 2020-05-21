@@ -2,6 +2,9 @@
   "name": "netlify-plugin-hashfiles",
   "description": "Netlify build plugin to get optimal file caching with hashed file names and immutable cache headers",
   "repository": "git://github.com/munter/netlify-plugin-hashfiles.git",
+  "bugs": {
+    "url": "https://github.com/munter/netlify-plugin-hashfiles/issues"
+  },
   "version": "4.0.1",
   "license": "BSD-3-Clause",
   "maintainers": [
