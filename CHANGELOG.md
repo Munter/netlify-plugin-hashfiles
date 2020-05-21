@@ -1,3 +1,22 @@
+### v4.0.2 (2020-05-21)
+
+#### Pull requests
+
+- [#83](https://github.com/munter/netlify-plugin-hashfiles/pull/83) Remove return value ([ehmicky](mailto:ehmicky@gmail.com))
+- [#82](https://github.com/munter/netlify-plugin-hashfiles/pull/82) Rename `BUILD\_DIR` to `PUBLISH\_DIR` ([Peter Müller](mailto:munter@fumle.dk), [ehmicky](mailto:ehmicky@gmail.com))
+- [#81](https://github.com/munter/netlify-plugin-hashfiles/pull/81) Rename `pluginConfig` to `inputs` ([ehmicky](mailto:ehmicky@gmail.com))
+- [#80](https://github.com/munter/netlify-plugin-hashfiles/pull/80) Add `bugs` field in `package.json` ([ehmicky](mailto:ehmicky@gmail.com))
+- [#38](https://github.com/munter/netlify-plugin-hashfiles/pull/38) Update Node.js to 10,12,13,14 ([Renovate Bot](mailto:bot@renovateapp.com))
+
+#### Commits to master
+
+- [Update dependency @netlify\/build to v0.4.44](https://github.com/munter/netlify-plugin-hashfiles/commit/4cde5cb59987dcb62cd9c70ccb68469532f35b57) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.43](https://github.com/munter/netlify-plugin-hashfiles/commit/92474efa8f2fefdf07a95301d225c2be5933a144) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.42](https://github.com/munter/netlify-plugin-hashfiles/commit/60207d8a704635bfccb26bbe60ed4014eefe4db2) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.40](https://github.com/munter/netlify-plugin-hashfiles/commit/3e636955c2f4f29786e95ad80c374c70fc9c5e96) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.39](https://github.com/munter/netlify-plugin-hashfiles/commit/408a50ddec2cf5264c62685f35a225e0fee2afc8) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [+36 more](https://github.com/munter/netlify-plugin-hashfiles/compare/v4.0.1...v4.0.2)
+
 ### v4.0.1 (2020-04-20)
 
 #### Pull requests
