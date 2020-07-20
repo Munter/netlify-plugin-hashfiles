@@ -10,6 +10,14 @@ matrix:
     - name: Lint
       node_js: lts/*
       script: npm run lint
+    - name: Windows
+      os: windows
+      node_js: lts/*
+      script: npm run test
+    - name: OSX
+      os: osx
+      node_js: lts/*
+      script: npm run test
 
 script: npm run test:ci
 after_success: <coverage/lcov.info ./node_modules/coveralls/bin/coveralls.js
