@@ -3,3 +3,4 @@
 .DS_Store
 /.nyc_output/
 dist
+test/**/dist

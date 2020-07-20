@@ -55,6 +55,7 @@
     "offline-github-changelog": "1.6.1",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
+    "strip-ansi": "6.0.0",
     "unexpected": "11.14.0",
     "unexpected-assetgraph": "1.1.2"
   },
@@ -63,7 +64,7 @@
     "prebuild": "rimraf dist",
     "build": "cpy site dist",
     "lint": "eslint .",
-    "test": "echo 'no tests set up'",
+    "test": "mocha",
     "test:ci": "npm run netlify-build && npm run coverage",
     "netlify-build": "netlify-build",
     "coverage": "NODE_ENV=test nyc --reporter=lcov --reporter=text --all -- mocha --reporter dot && echo google-chrome coverage/lcov-report/index.html",
