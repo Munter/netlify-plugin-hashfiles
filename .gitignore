@@ -4,3 +4,4 @@
 /.nyc_output/
 dist
 test/**/dist
+test/no-publish-dir/this-dir-does-not-exist/

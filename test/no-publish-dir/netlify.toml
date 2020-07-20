@@ -1,6 +1,6 @@
 [build]
 publish = "this-dir-does-not-exist"
-command = "echo 'no build step'"
+command = "npx rimraf this-dir-does-not-exist"
 
 [[plugins]]
 package = "../../"
