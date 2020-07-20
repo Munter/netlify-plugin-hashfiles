@@ -34,8 +34,7 @@
   "dependencies": {
     "assetgraph": "^6.0.3",
     "assetgraph-hashfiles": "^1.0.1",
-    "fs-extra": "9.0.1",
-    "path-type": "^4.0.0"
+    "fs-extra": "9.0.1"
   },
   "devDependencies": {
     "@netlify/build": "3.0.1",
