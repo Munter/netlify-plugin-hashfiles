@@ -21,4 +21,15 @@ describe('netlify-build', () => {
       'main.css ==> static/main.6d8fdb5bf3.css'
     );
   });
+
+  it('should not throw when the publish directory is missing', async () => {
+    const result = await build({
+      cwd: resolve(__dirname, 'no-publish-dir'),
+      buffer: true,
+    });
+
+    expect(result, 'to satisfy', {
+      success: true,
+    });
+  });
 });
