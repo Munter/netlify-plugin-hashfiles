@@ -52,13 +52,16 @@
     "eslint-plugin-standard": "4.0.1",
     "magicpen-prism": "4.0.0",
     "mocha": "8.0.1",
+    "node-sass": "4.14.1",
     "nyc": "15.1.0",
     "offline-github-changelog": "1.6.1",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
     "strip-ansi": "6.0.0",
+    "typescript": "3.9.7",
     "unexpected": "11.14.0",
-    "unexpected-assetgraph": "1.1.2"
+    "unexpected-assetgraph": "1.1.2",
+    "unexpected-set": "2.0.1"
   },
   "main": "lib/index.js",
   "scripts": {

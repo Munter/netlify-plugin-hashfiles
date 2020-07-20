@@ -1,0 +1,6 @@
+[build]
+publish = "dist"
+command = "npx rimraf dist && npx typescript --outdir dist src/main.ts --sourceMap && npx node-sass -o dist src/main.scss --output-style expanded --source-map true && npx cpy src/*.html dist"
+
+[[plugins]]
+package = "../../"
