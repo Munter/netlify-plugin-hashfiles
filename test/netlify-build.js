@@ -66,4 +66,19 @@ describe('netlify-build', () => {
       'main.js.map ==> static/main.js.e2c404d6d5.map',
     ]);
   });
+
+  it('should handle the same path existing multiple times in the asset graph', async () => {
+    const result = await build({
+      cwd: resolve(__dirname, 'duplicate-assets'),
+      buffer: true,
+    });
+
+    expect(result, 'to satisfy', {
+      success: true,
+    });
+
+    const log = unlogify(result.logs.stdout).filter((l) => l.includes(' ==> '));
+
+    expect(log, 'to satisfy', ['test.jpg ==> static/test.df359530c7.jpg']);
+  });
 });
