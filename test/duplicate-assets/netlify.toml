@@ -1,0 +1,6 @@
+[build]
+publish = "dist"
+command = "npx rimraf dist && npx cpy src dist"
+
+[[plugins]]
+package = "../../"
