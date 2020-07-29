@@ -21,7 +21,7 @@ describe('netlify-build', () => {
   it('should run with no configuration', async () => {
     const result = await build({
       cwd: resolve(__dirname, 'no-config'),
-      buffer: true,
+      buffer: false,
       debug: true,
     });
 
