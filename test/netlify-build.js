@@ -22,6 +22,7 @@ describe('netlify-build', () => {
     const result = await build({
       cwd: resolve(__dirname, 'no-config'),
       buffer: true,
+      debug: true,
     });
 
     expect(result, 'to satisfy', {
