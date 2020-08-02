@@ -66,4 +66,26 @@ describe('netlify-build', () => {
       'main.js.map ==> static/main.js.e2c404d6d5.map',
     ]);
   });
+
+  it('should warn when encountering cyclic relations', async () => {
+    const result = await build({
+      cwd: resolve(__dirname, 'cycles'),
+      buffer: true,
+    });
+
+    expect(result, 'to satisfy', {
+      success: true,
+    });
+
+    expect(
+      unlogify(result.logs.stderr),
+      'to contain',
+      ' ⚠ WARN: moveAssetsInOrder: Cyclic dependencies detected. All files could not be moved'
+    );
+    expect(
+      unlogify(result.logs.stdout),
+      'to contain',
+      '** hashfiles moved no files **'
+    );
+  });
 });
