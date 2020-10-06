@@ -60,7 +60,7 @@
     "typescript": "3.9.7",
     "unexpected": "11.14.0",
     "unexpected-assetgraph": "1.1.2",
-    "unexpected-set": "2.0.1"
+    "unexpected-set": "3.0.0"
   },
   "main": "lib/index.js",
   "scripts": {
