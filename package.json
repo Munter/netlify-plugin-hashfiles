@@ -57,7 +57,7 @@
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
     "strip-ansi": "6.0.0",
-    "typescript": "3.9.7",
+    "typescript": "4.0.5",
     "unexpected": "11.14.0",
     "unexpected-assetgraph": "1.1.2",
     "unexpected-set": "3.0.0"
