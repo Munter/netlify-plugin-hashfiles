@@ -51,7 +51,7 @@
     "eslint-plugin-standard": "4.0.2",
     "magicpen-prism": "4.1.1",
     "mocha": "8.2.0",
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "nyc": "15.1.0",
     "offline-github-changelog": "1.6.1",
     "prettier": "2.0.5",
