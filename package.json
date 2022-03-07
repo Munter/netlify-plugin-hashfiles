@@ -54,7 +54,7 @@
     "node-sass": "5.0.0",
     "nyc": "15.1.0",
     "offline-github-changelog": "1.6.1",
-    "prettier": "2.0.5",
+    "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "strip-ansi": "6.0.0",
     "typescript": "4.0.5",
