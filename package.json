@@ -37,7 +37,7 @@
     "fs-extra": "9.1.0"
   },
   "devDependencies": {
-    "@netlify/build": "5.2.0",
+    "@netlify/build": "18.2.11",
     "coveralls": "3.1.0",
     "cpy-cli": "3.1.1",
     "eslint": "7.32.0",
@@ -51,7 +51,7 @@
     "eslint-plugin-standard": "4.1.0",
     "magicpen-prism": "4.1.1",
     "mocha": "8.4.0",
-    "node-sass": "5.0.0",
+    "node-sass": "7.0.1",
     "nyc": "15.1.0",
     "offline-github-changelog": "2.4.0",
     "prettier": "2.5.1",
