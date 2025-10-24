@@ -46,7 +46,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-mocha": "10.5.0",
     "eslint-plugin-n": "14.0.0",
-    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-prettier": "4.2.5",
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-standard": "4.1.0",
     "magicpen-prism": "5.0.1",
