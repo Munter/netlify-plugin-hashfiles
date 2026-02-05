@@ -39,7 +39,7 @@
   "devDependencies": {
     "@netlify/build": "35.6.0",
     "coveralls": "3.1.1",
-    "cpy-cli": "6.0.0",
+    "cpy-cli": "7.0.0",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-config-standard": "17.1.0",
