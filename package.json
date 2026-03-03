@@ -52,7 +52,7 @@
     "magicpen-prism": "5.0.1",
     "mocha": "11.7.5",
     "node-sass": "7.0.3",
-    "nyc": "17.1.0",
+    "nyc": "18.0.0",
     "offline-github-changelog": "3.1.0",
     "prettier": "3.8.1",
     "rimraf": "6.1.3",
