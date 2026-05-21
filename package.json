@@ -50,7 +50,7 @@
     "eslint-plugin-promise": "7.3.0",
     "eslint-plugin-standard": "5.0.0",
     "magicpen-prism": "5.0.1",
-    "mocha": "11.7.5",
+    "mocha": "11.7.6",
     "node-sass": "7.0.3",
     "nyc": "18.0.0",
     "offline-github-changelog": "4.0.0",
