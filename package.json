@@ -37,7 +37,7 @@
     "fs-extra": "9.1.0"
   },
   "devDependencies": {
-    "@netlify/build": "37.0.0",
+    "@netlify/build": "37.3.0",
     "coveralls": "3.1.1",
     "cpy-cli": "7.0.0",
     "eslint": "10.11.0",
